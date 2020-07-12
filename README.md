@@ -1,5 +1,7 @@
 # SneakerTech
 
+#### Sneaker-Tech 시연.mp4 동영상 파일을 통해 웹 페이지의 기능을 알 수 있습니다.
+
 ### 1. SneakerTech 프로젝트
 > 스니커즈 릴리즈 정보, 중고시세 비교 웹사이트 제작
 
