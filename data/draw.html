@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+        
+        <style>
+            .card-img-top {
+                width: 100%;
+                height: 100%;
+            }
+
+            .card-img-top:hover {
+                opacity: 0.5;
+            }
+
+            #release-card  {
+                max-width: 300px;
+                margin-left: 10px;
+                margin-right: 10px;
+                border: none;
+            }
+
+            #drop-btns {
+                padding-top:15px;
+                margin-bottom:10px;
+                display: flex;
+                justify-content: space-between;
+                height: 30vh;
+                background-image: url('../public/image/Release-dates-Image.jpg');
+                background-size: contain;
+                position: relative;
+                text-align: center;
+                color: white;
+                font-weight: bold;
+            }
+
+            #drop-category {
+                margin-right: 10px;
+            }
+
+            #release {
+                margin-bottom: 10px;
+            }
+
+            #page-nav {
+                margin-top: 20px;
+                display: flex;
+                justify-content: center;
+            }
+
+            #origin-page {
+                width:100%;
+            }
+
+            #scrollUp {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                width: 40px;
+                height: 40px;
+                background-color: dimgray;
+                background-image: url(../public/web-image/scrollUp.png);
+                background-position: center;
+                opacity: 0.8;
+                background-size: 80% 50%;
+                background-repeat: no-repeat;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+            #image-hover-text {
+                position: relative;
+                width: 50%;
+            }
+
+            #image-hover-text .image {
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+
+            #image-hover-text .overlay {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 100%;
+                width: 100%;
+                opacity: 0;
+                transition: .5s ease;
+                background-color: #008CBA;
+            }
+
+            #image-hover-text:hover .overlay {
+                opacity: 0.5;
+            }
+
+            .text {
+                color: white;
+                font-size: 20px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                text-align: center;
+            }
+
+            
+            #hover-btn span:nth-child(2) {
+                display: none;
+            }
+            #hover-btn:hover span:nth-child(1) {
+                display: none;
+            }
+            #hover-btn:hover span:nth-child(2) {
+                display: inline-block;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+
+            <img src="../public/image/release-banner.png" class="img-fluid" alt="Not Found!">
+            
+        </div>
+
+        <div>
+            <h4 id="d-day-timer"></h4>
+            <h4 id="d-day-timer"></h4>
+            <h4 id="d-day-timer"></h4>
+            <h4 id="d-day-timer"></h4>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <h4>hello</h4>
+            </div>
+            <div class="row justify-content-center">
+                <h4>hello</h4>
+            </div>
+        </div>
+
+        <a id="hover-btn" href="">
+            <span>스타일이란</span>
+            <span>ABOUT STYLE</span>
+        </a>
+
+        <a id="hover-btn" target="_blank" href="https://www.nike.com/kr/launch/?type=feed" class="btn btn-primary">
+            <span>NIKE 코리아</span>
+            <span>ENTER DRAW</span>
+        </a>
+
+        <div id="image-hover-text" class="container">
+            <img src="../public/image/nike1.jpg" alt="Avatar" class="image">
+            <div class="overlay">
+                <div class="text">Hello World</div>
+            </div>
+        </div>
+        
+        <div id="drop-btns" class="container-fluid row">
+            <p style="margin-left: 20px;">발매일</p>
+                
+            <div>
+                <span id="drop-category" class="dropdown">
+                </span>
+                    
+                <span id="drop-sort" class="dropdown">
+                </span>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div id="release" class="row justify-content-center">
+            </div>
+        </div>
+
+        <div id="page-nav">
+        </div>
+
+        <!-- Scroll Up -->
+        <span id="scrollUp"></span>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+        <script src="draw.js"></script>
+    </body>
+</html>

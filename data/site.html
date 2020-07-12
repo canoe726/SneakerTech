@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+        
+        <style>
+            #site-list-group {
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+
+            #list-category {
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div class="col" id="list-category">
+            <div class="list-group list-group-horizontal" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active" id="list-all-list" data-toggle="list" href="#list-all" role="tab" aria-controls="all">종합</a>
+                <a class="list-group-item list-group-item-action" id="list-sneakers-list" data-toggle="list" href="#list-sneakers" role="tab" aria-controls="sneakers">스니커즈</a>
+                <a class="list-group-item list-group-item-action" id="list-luxury-list" data-toggle="list" href="#list-luxury" role="tab" aria-controls="luxury">명품</a>
+                <a class="list-group-item list-group-item-action" id="list-street-list" data-toggle="list" href="#list-street" role="tab" aria-controls="street">스트릿</a>
+                <a class="list-group-item list-group-item-action" id="list-sports-list" data-toggle="list" href="#list-sports" role="tab" aria-controls="sports">스포츠</a>
+                <a class="list-group-item list-group-item-action" id="list-howto-list" data-toggle="list" href="#list-howto" role="tab" aria-controls="howto">직구방법</a>
+            </div>
+        </div>
+
+        <div class="row" id="site-list-group">
+            <div class="col">
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="list-all" role="tabpanel" aria-labelledby="list-all-list">
+                        <div id="site-list-all"></div>
+                    </div>
+                    <div class="tab-pane fade" id="list-sneakers" role="tabpanel" aria-labelledby="list-sneakers-list">
+                        <div id="site-list-sneakers"></div>
+                    </div>
+                    <div class="tab-pane fade" id="list-luxury" role="tabpanel" aria-labelledby="list-luxury-list">
+                        <div id="site-list-luxury"></div>
+                    </div>
+                    <div class="tab-pane fade" id="list-street" role="tabpanel" aria-labelledby="list-street-list">
+                        <div id="site-list-street"></div>
+                    </div>
+                    <div class="tab-pane fade" id="list-sports" role="tabpanel" aria-labelledby="list-sports-list">
+                        <div id="site-list-sports"></div>
+                    </div>
+                    <div class="tab-pane fade" id="list-howto" role="tabpanel" aria-labelledby="list-howto-list">
+                        <div id="site-list-howto"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="site.js"></script>
+    </body>
+</html>

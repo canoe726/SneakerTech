@@ -1,0 +1,558 @@
+/*     */
+/* TAG */
+/*     */
+body, a, p, div, button, input, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Nanum Gothic', serif;
+}
+
+a {
+    text-decoration: none !important;
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+td a {
+    color: black;
+}
+
+div .card-body {
+    color: black;
+}
+
+@media (max-width:960px) {
+    div .card-body {
+        font-size: 14px;
+    }
+}
+
+li {
+    list-style:none;
+}
+
+div .card {
+    border: none;
+}
+
+div .card a {
+    color: black;
+}
+
+div .card-header {
+    border: none;
+    background-color: white;
+}
+
+/*       */
+/* CLASS */
+/*       */
+.carousel-inner img {
+    height: 30vh;
+    object-fit: contain;
+}
+
+.card-img-top:hover {
+    opacity: 0.5;
+}
+
+.card-img-top:hover .centered {
+    opacity: 1;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+}
+
+.top-left {
+    font-size: 12px;
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    text-align: start;
+}
+
+.centered {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.1;
+    color: white;
+    background-color: lightgray;
+}
+
+.banner-top-left {
+    position: absolute;
+    top: 12px;
+    left: 40px;
+}
+
+.top-right {
+    position: absolute;
+    top: 12px;
+    right: 20px;
+}
+
+.carousel-inner img {
+    height: 30vh;
+    object-fit: contain;
+}
+
+.banner-top-left {
+    color: black;
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    font-size: 40px;
+}
+
+@media (max-width: 570px) {
+    .col-10 {
+        margin-top: 20px;
+    }
+}
+
+.browse-wrapper {
+    margin-top: 56px;
+}
+
+.horizontal-line {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+    width: 100%;
+    border-bottom:1px solid white;
+}
+/*    */
+/* ID */
+/*    */
+#move-btn {
+    width: 30vw;
+}
+
+#footer {
+    text-align: center;
+    background-color: lightgray;
+    height: 30vh;
+    margin-top: 30px;
+    position: relative;
+}
+
+#footer .row {
+    height: 100%;
+    align-items: center;
+}
+
+@media (max-width: 1200px) {
+    #footer {
+        height: 50vh;
+    }
+}
+
+#footer li {
+    margin-top: 8px;
+}
+
+#footer .title {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+#footer-bottom {
+    background-color: #aaaaaa;
+    height: 10vh;
+}
+
+#footer-bottom .row {
+    height: 100%;
+    align-items: center;
+}
+
+#footer-bottom .col-6 {
+    text-align: center;
+}
+
+#site_cards .list-group {
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#site_cards .tab-content {
+    width: 100%;
+    text-align: center;
+}
+
+#site_cards .tab-content .card {
+    margin-bottom: 10px;
+}
+
+#site_cards .tab-content .card-body img {
+    max-height: 30vh;
+    max-width: 30vw;
+}
+
+#drop-btns {
+    position: relative;
+    padding-top: 10px;
+    margin-bottom:10px;
+    height: 20vh;
+    background-color: #dcdcdc;
+    display: flex;
+    justify-content: space-between;
+}
+
+#drop-btns .img {
+    width:100%;
+}
+
+#drop-btns-small {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom:10px;
+    display: none;
+    background-color: #dcdcdc;
+}
+
+@media (max-width: 570px) {
+    #drop-btns {
+        display: none;
+    }
+
+    #drop-btns-small {
+        display: flex;
+    }
+}
+
+#drop-category {
+    margin-right: 10px;
+}
+
+#page-nav {
+    margin-top: 15px;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.card-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 13px;
+}
+
+#hover-btn {
+    margin-top: 10px;
+    width:100%;
+    background-color: white;
+    border-color: black;
+    vertical-align: bottom;
+}
+
+#hover-btn:hover {
+    background-color: #323232;
+}
+
+#hover-btn span:nth-child(2) {
+    display: none;
+}
+
+#hover-btn:hover span:nth-child(1) {
+    display: none;
+}
+
+#hover-btn:hover span:nth-child(2) {
+    display: inline-block;
+}
+
+#release-title {
+    margin-bottom: auto;
+}
+
+#site-list-group {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#list-category {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#card-header-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+#item-card {
+    max-width: 500px;
+    margin: 10px;
+    text-align: center;
+    border: none;
+    background-color: #FAFAFA;
+}
+
+#card-content {
+    display:flex;
+    justify-content:center;
+}
+
+#scrollUp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #646464;
+    background-image: url(/web-image/scrollUp.png);
+    background-position: center;
+    opacity: 0.5;
+    background-size: 80% 50%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#scrollUp:hover {
+    opacity: 1.0;
+}
+
+#stock-card  {
+    margin: 10px;
+    border: none;
+    background-color: lightgrey;
+}
+
+#filter-btn {
+    margin-left: 5px;
+}
+
+#stock-category {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:720px) {
+    #stock-category h4 {
+        font-size: 16;
+    }
+}
+
+#stock-checkbox {
+    margin-left: 10px;
+}
+
+#stock-div {
+    margin-top: 15px;
+}
+
+#stock-tag {
+    margin-top: 5px;
+    display: flex;
+}
+
+#stock-tag-dropdown {
+    margin-top: 5px;
+    display: none;
+}
+
+@media (max-width: 570px) {
+    #stock-tag {
+        display: none;
+    }  
+    #stock-tag-dropdown {
+        display: flex;
+    }  
+}
+
+#stock-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media (max-width:570px) {
+    #filter-btn {
+        margin-top:5px;
+    }
+}
+
+@media (max-width:850px) {
+    #filter-category-selected {
+        font-size: 6px;
+    }
+
+    #filter-category {
+        font-size: 6px;
+    }
+}
+
+#page-banner {
+    background-color: #dcdcdc;
+    width: 100%;
+    height: 20vh;
+    position: relative;
+    display: flex;
+}
+
+#page-banner-small {
+    display: none;
+    background-color: #dcdcdc;
+}
+
+@media (max-width:570px) {
+    #page-banner {
+        display: none;
+    }
+
+    #page-banner-small {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        display: flex;
+    }
+}
+
+#noItem {
+    text-align: center;
+    font-weight: bold;
+    color: gray;
+}
+
+#nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+#filter-category {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+#filter-category-selected {
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-bottom: 5px;
+}
+
+#page-nav {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#stock-item-img {
+    width: 100%;
+    height: 40vh;
+    object-fit: scale-down;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#size-tag {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+}
+
+#chart-row {
+    margin-top: 15px;
+}
+
+#stock-chart {
+    margin-top: 15px;
+}
+
+#chart-row-col-img {
+    display: flex;
+    justify-content: center;
+}
+
+#chart-row-col-chart {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: auto;
+}
+
+#stock-summary-table {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#stock-summary-table thead {
+    background-color: #FAFAFA;
+}
+
+#stock-link-table {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#stock-link-table thead {
+    background-color: #FAFAFA;
+}
+
+#chart-title {
+    padding-top: 15px;
+}
+
+#loading {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+#fixed-navbar {
+    margin: 0px !important;
+    padding: 0px !important;
+    z-index: 999;
+    position: fixed;
+    top: 0px;
+    overflow: hidden;
+}
+
+#sites-list {
+    padding-top: 5px;
+}
+
+#image-hover-text {
+    position: relative;
+    max-width: 300px;
+    padding: 0 !important;
+}
+
+#image-hover-text .image {
+    width: 100%;
+    height: auto;
+}
+
+#image-hover-text .overlay {
+    position: absolute;
+    top: 15px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    color: black;
+}
+
+#image-hover-text:hover .overlay {
+    opacity: 0.8;
+}

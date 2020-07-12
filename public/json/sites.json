@@ -1,0 +1,278 @@
+[
+    {
+        "category" : "sneakers",
+        "name" : "풋락커",
+        "url" : "https://www.footlocker.com/",
+        "show_url" : "www.footlocker.com"
+    },
+    {
+        "category" : "sneakers",
+        "name" : "이스트베이",
+        "url" : "https://www.eastbay.com/",
+        "show_url" : "www.eastbay.com"
+    },
+    {
+        "category" : "sneakers",
+        "name" : "스니커앤스터프",
+        "url" : "https://www.sneakersnstuff.com/en",
+        "show_url" : "www.sneakersnstuff.com"
+    },
+    {
+        "category" : "sneakers",
+        "name" : "스탁엑스",
+        "url" : "https://stockx.com/",
+        "show_url" : "stockx.com"
+    },
+    {
+        "category" : "sneakers",
+        "name" : "풋액션",
+        "url" : "https://www.footaction.com/",
+        "show_url" : "www.footaction.com"
+    },
+    {
+        "category" : "sneakers",
+        "name" : "나이키 (미국)",
+        "url" : "https://www.nike.com/",
+        "show_url" : "www.nike.com"
+    },
+    {
+        "category" : "sneakers",
+        "name" : "나이키 (독일)",
+        "url" : "https://www.nike.com/de/",
+        "show_url" : "www.nike.com/de"
+    },
+    {
+        "category" : "sneakers",
+        "name" : "아스팔트골드",
+        "url" : "https://www.asphaltgold.com/de/men/",
+        "show_url" : "www.asphaltgold.com"
+    },
+    {
+        "category" : "sneakers",
+        "name" : "DSW",
+        "url" : "https://www.dsw.com/en/us/",
+        "show_url" : "www.dsw.com"
+    },
+    {
+        "category" : "sneakers",
+        "name" : "킥스스토어",
+        "url" : "https://kicksstore.eu/",
+        "show_url" : "kicksstore.eu"
+    },
+    {
+        "category" : "sneakers",
+        "name" : "스나이프 USA",
+        "url" : "https://www.snipesusa.com/",
+        "show_url" : "www.snipesusa.com"
+    },
+    {
+        "category" : "sneakers",
+        "name" : "킥사파이",
+        "url" : "https://www.kixify.com/",
+        "show_url" : "www.kixify.com"
+    },
+    {
+        "category" : "sneakers",
+        "name" : "킥스스퀘어",
+        "url" : "https://kixsquare.com/",
+        "show_url" : "kixsquare.com"
+    },
+    {
+        "category" : "sneakers",
+        "name" : "나이스킥스",
+        "url" : "https://shopnicekicks.com/",
+        "show_url" : "shopnicekicks.com"
+    },
+    {
+        "category" : "sneakers",
+        "name" : "킥스스퀘어",
+        "url" : "https://kixsquare.com/",
+        "show_url" : "kixsquare.com"
+    },
+    {
+        "category" : "sneakers",
+        "name" : "스니커에비뉴",
+        "url" : "https://www.sneak-a-venue.com/",
+        "show_url" : "www.sneak-a-venue.com"
+    },
+    {
+        "category" : "sneakers",
+        "name" : "스니커바스",
+        "url" : "https://www.sneakerbaas.com/",
+        "show_url" : "www.sneakerbaas.com"
+    },
+    {
+        "category" : "sneakers",
+        "name" : "스니커폴리틱스",
+        "url" : "https://sneakerpolitics.com/",
+        "show_url" : "sneakerpolitics.com"
+    },
+    {
+        "category" : "sneakers",
+        "name" : "스타디움굿즈",
+        "url" : "https://www.stadiumgoods.com/",
+        "show_url" : "www.stadiumgoods.com"
+    },
+    {
+        "category" : "sneakers",
+        "name" : "YCMC",
+        "url" : "https://www.ycmc.com/",
+        "show_url" : "www.ycmc.com"
+    },
+    {
+        "category" : "sneakers",
+        "name" : "풋샵",
+        "url" : "https://www.footshop.eu/en/",
+        "show_url" : "www.footshop.eu/en/"
+    },
+    {
+        "category" : "sneakers",
+        "name" : "페이머스풋웨어",
+        "url" : "https://www.famousfootwear.com/",
+        "show_url" : "www.famousfootwear.com"
+    },
+    {
+        "category" : "sneakers",
+        "name" : "에비뉴스토어",
+        "url" : "https://www.lockwood-avenue.com/nl/",
+        "show_url" : "www.lockwood-avenue.com"
+    },
+    {
+        "category" : "luxury",
+        "name" : "Yoox",
+        "url" : "https://www.yoox.com/kr/%EB%82%A8%EC%84%B1",
+        "show_url" : "https://www.yoox.com/kr"
+    },
+    {
+        "category" : "luxury",
+        "name" : "SSENSE",
+        "url" : "https://www.ssense.com/en-kr",
+        "show_url" : "www.ssense.com"
+    },
+    {
+        "category" : "luxury",
+        "name" : "파페치",
+        "url" : "https://www.farfetch.com/kr/shopping/women/items.aspx",
+        "show_url" : "www.farfetch.com/kr"
+    },
+    {
+        "category" : "luxury",
+        "name" : "더리얼리얼",
+        "url" : "https://www.therealreal.com/",
+        "show_url" : "www.therealreal.com"
+    },
+    {
+        "category" : "luxury",
+        "name" : "마이테레사",
+        "url" : "https://www.mytheresa.com/ko-kr/women.html",
+        "show_url" : "www.mytheresa.com/ko-kr"
+    },
+    {
+        "category" : "luxury",
+        "name" : "엔드클로딩",
+        "url" : "https://www.endclothing.com/us/",
+        "show_url" : "www.endclothing.com"
+    },
+    {
+        "category" : "luxury",
+        "name" : "네타포르테",
+        "url" : "https://www.net-a-porter.com/us/en/",
+        "show_url" : "www.net-a-porter.com"
+    },
+    {
+        "category" : "luxury",
+        "name" : "노드스트롬",
+        "url" : "https://shop.nordstrom.com/",
+        "show_url" : "shop.nordstrom.com"
+    },
+    {
+        "category" : "luxury",
+        "name" : "노드스트롬랙",
+        "url" : "https://www.nordstromrack.com/",
+        "show_url" : "www.nordstromrack.com"
+    },
+    {
+        "category" : "luxury",
+        "name" : "하입비스트",
+        "url" : "https://hbx.com/kr/men",
+        "show_url" : "hbx.com"
+    },
+    {
+        "category" : "luxury",
+        "name" : "더아웃넷",
+        "url" : "https://www.theoutnet.com/en-kr/",
+        "show_url" : "www.theoutnet.com"
+    },
+    {
+        "category" : "luxury",
+        "name" : "24S",
+        "url" : "https://www.24s.com/ko-kr/",
+        "show_url" : "www.24s.com"
+    },
+    {
+        "category" : "luxury",
+        "name" : "미스터포터",
+        "url" : "https://www.mrporter.com/en-kr/",
+        "show_url" : "www.mrporter.com"
+    },
+    {
+        "category" : "luxury",
+        "name" : "헤롯",
+        "url" : "https://www.harrods.com/en-gb/",
+        "show_url" : "www.harrods.com"
+    },
+    {
+        "category" : "luxury",
+        "name" : "셀프리지",
+        "url" : "https://www.selfridges.com/KR/en/",
+        "show_url" : "www.selfridges.com"
+    },
+    {
+        "category" : "luxury",
+        "name" : "포워드",
+        "url" : "https://www.fwrd.com/",
+        "show_url" : "www.fwrd.com"
+    },
+    {
+        "category" : "luxury",
+        "name" : "이탈리스트",
+        "url" : "https://www.italist.com/kr",
+        "show_url" : "www.italist.com"
+    },
+    {
+        "category" : "luxury",
+        "name" : "리볼브",
+        "url" : "https://www.revolve.co.kr/",
+        "show_url" : "www.revolve.co.kr"
+    },
+    {
+        "category" : "luxury",
+        "name" : "루라라",
+        "url" : "https://www.ruelala.com/",
+        "show_url" : "www.ruelala.com"
+    },
+    {
+        "category" : "luxury",
+        "name" : "루이자비아로마",
+        "url" : "https://www.luisaviaroma.com/ko-kr",
+        "show_url" : "www.luisaviaroma.com"
+    },
+    {
+        "category" : "luxury",
+        "name" : "길트",
+        "url" : "https://www.gilt.com/",
+        "show_url" : "www.gilt.com"
+    },
+    {
+        "category" : "luxury",
+        "name" : "그레일드",
+        "url" : "https://www.grailed.com/",
+        "show_url" : "www.grailed.com"
+    },
+    {
+        "category" : "street",
+        "name" : "",
+        "url" : "",
+        "show_url" : ""
+    }
+]
