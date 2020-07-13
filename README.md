@@ -46,7 +46,7 @@
 
 
 ### 3. 사용법
-> 실행 : 로컬에 저장 -> db_structure를 통해 MySQL 데이터 베이스 작성 -> spyder의 .py 파일 실행을 통해 웹 페이지 크롤링
+> 실행 : 로컬에 저장 -> db_structure를 통해 MySQL 데이터 베이스 작성 -> spyder의 .py 파일 실행을 통해 웹 페이지 크롤링 -> package.json 에 기재된 모듈 설치 npm install -> localhost:3000으로 실행
 
 > 환경 : 구글 크롬, (모바일 : 개발자 도구의 Toggle device toolbar)
 
